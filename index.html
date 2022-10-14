@@ -22,7 +22,7 @@
 <body>
 
   <!-- Rating state start -->
-  <div class="card">
+  <form class="card" action="#">
     <div class="card_logo">
       <img src="./images/icon-star.svg" alt="star">
     </div>
@@ -31,34 +31,31 @@
 
     <p class="card_description">Please let us know how we did with your support request. All feedback is appreciated
       to help us improve our offering!</p>
-    <form action="#">
-      <ul class="card_rating">
-        <li class="card_rating_rate">1</li>
-        <li class="card_rating_rate">2</li>
-        <li class="card_rating_rate">3</li>
-        <li class="card_rating_rate">4</li>
-        <li class="card_rating_rate">5</li>
-      </ul>
-      <input type="submit" value="Submit" name="submit" class="submit">
-    </form>
-  </div>
+    <ul class="card_rating">
+      <li class="card_rating_rate rate-1">1</li>
+      <li class="card_rating_rate rate-2">2</li>
+      <li class="card_rating_rate rate-3">3</li>
+      <li class="card_rating_rate rate-4">4</li>
+      <li class="card_rating_rate rate-5">5</li>
+    </ul>
+    <input type="submit" value="Submit" name="submit" class="card_btn">
+  </form>
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
+<!--  <div class="card">-->
+<!--    <h3 class="card_select">You selected &lt;!&ndash; Add rating here &ndash;&gt; out of 5</h3>-->
+<!--    <h1 class="card_title">Thank you!</h1>-->
+<!--    <p class="card_description">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>-->
+<!--  </div>-->
 
-<!--  You selected &lt;!&ndash; Add rating here &ndash;&gt; out of 5-->
-
-<!--  Thank you!-->
-
-<!--  We appreciate you taking the time to give a rating. If you ever need more support, -->
-<!--  don’t hesitate to get in touch!-->
-
-<!--  &lt;!&ndash; Thank you state end &ndash;&gt;-->
+  <!-- Thank you state end -->
 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="./js/main.js"></script>
 </body>
 </html>
